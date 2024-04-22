@@ -1,0 +1,61 @@
+.card {
+    border: 2px solid #f3f3f3;
+    width: 210px;
+    height: 300px;
+    border-radius: 40px;
+    padding: 25px;
+    padding-top: 18px;
+    margin-bottom: 38px;
+    text-align: center;
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    margin-right: 16px;
+    margin-left: 16px;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    .cardImg {
+        height: 122px;
+        width: 143px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 -18px;
+    }
+
+    h5 {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .favourite {
+        width: 37px;
+        height: 37px;
+        border: 1px solid #f2f2f2;
+        border-radius: 12px;
+        cursor: pointer;
+
+        img {
+            width: 200px;
+        }
+    }
+
+    .info {
+        align-items: center;
+        margin-top: 5px;
+
+        .addToCartBtn {
+            height: 37px;
+            width: 37px;
+            cursor: pointer;
+        }
+
+        .price {
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+        }
+    }
+}

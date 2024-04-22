@@ -1,0 +1,16 @@
+.drawer {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: white;
+    width: 480px;
+    padding: 25px;
+    transform: translateX(480px);
+    transition: transform 350ms ease-in-out;
+    z-index: 11;
+}
+
+.drawer.open {
+    transform: translateX(0);
+}
